@@ -1,0 +1,34 @@
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Raul",
+    "lastName": "Seixas",
+    "password": "raul@seixas",
+    "email": "raul@seixas.com"
+}
+
+###
+POST http://localhost:8080/imoveis HTTP/1.1
+
+{
+  "tipo": "Casa",
+  "descricao": "Casa de praia",
+
+
+  
+
+}
+
+
+###
+GET http://localhost:8080/users
+
+###
+GET http://localhost:8080/imoveis
+
+
+
+### Deletar
+
+DELETE http://localhost:8080/users/646c95989eff2aae2924b80f
